@@ -9,22 +9,17 @@ export default function SearchBar() {
         alert(`You searched for '${query}'`);
     }
     return (
-        <div className="bg-light">
+        
             <div className="container d-flex justify-content-center align-items-center search-wrapper" >
                 <div className="search-wrapper">
                     <form onSubmit={search}>
                         <div className="search-box">
-                            <input className="search-input form-control" name="query" placeholder="Search"/>
-                            
+                            <input className="search-input form-control" name="query" placeholder="Search"/>     
                         </div>
-
                     </form>
-
                 </div>
-
             </div>
-            
-        </div>
+        
 
 
 
